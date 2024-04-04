@@ -57,3 +57,10 @@ zoo.add_animal(bird1)
 zoo.add_animal(mammal1)
 zoo.add_animal(reptile1)
 
+zoo.add_staff(keeper)
+zoo.add_staff(veterinarian)
+
+animal_sound(zoo.animals)
+
+keeper.feed_animal(bird1)
+veterinarian.feed_animal(mammal1)
